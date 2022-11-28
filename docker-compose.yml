@@ -1,0 +1,5 @@
+services:
+  postgres:
+    image: postgres:14
+    environment: { POSTGRES_DB: tenantforge, POSTGRES_USER: tenantforge, POSTGRES_PASSWORD: tenantforge }
+    ports: ["5432:5432"]
